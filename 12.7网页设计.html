@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>公共厕所不冲水的危害</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.6;
+            background-color: #FFFACD; /* 淡淡的鹅黄色 */
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header, footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #5c67f2;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .cute-toilet {
+            display: block;
+            margin: 20px auto;
+            max-width: 300px;
+        }
+        .toilet-adventure {
+            text-align: center;
+            font-style: italic;
+            color: #888;
+        }
+        #playButton {
+            font-size: 24px;
+            color: #5c67f2;
+            background-color: #f0f0f0;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        #playButton:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚽 公共厕所不冲水的危害</h1>
+            <p>让我们一起来拯救厕所的尊严！</p>
+            <button id="playButton" onclick="playAudio()">
+                🎵 播放音乐
+            </button>
+            <img src="1.jpg" alt="拯救厕所的英雄" class="cute-toilet">
+        </header>
+
+        <!-- 音频播放器 -->
+        <audio id="audioPlayer" loop>
+            <source src="网页配乐-宝宝巴士.mp3" type="audio/mpeg">
+            您的浏览器不支持 audio 元素。
+        </audio>
+
+        <section>
+            <h2>🌟 厕所不冲水的“超能力”</h2>
+            <p>你以为不冲水只是小事一桩？错！它有着不为人知的“超能力”！</p>
+            <ul>
+                <li><strong>超能力一：</strong>制造“生化武器”。不冲水，厕所里的气味能让人窒息。</li>
+                <li><strong>超能力二：</strong>培养“超级细菌”。不冲水，细菌们会感谢你，然后疯狂繁殖。</li>
+                <li><strong>超能力三：</strong>传播“视觉污染”。不冲水，下一个使用者将受到视觉冲击。</li>
+            </ul>
+            <img src="2.jpg" alt="动漫公厕" class="cute-toilet">
+            <p class="toilet-adventure">厕所英雄，正在拯救世界的厕所！</p>
+        </section>
+
+        <section>
+            <h2>🌈 厕所里的“蹲坑”传说</h2>
+            <p>蹲坑，一个神秘而又神圣的地方，但如果你忘了冲水...</p>
+            <ul>
+                <li><span class="em">传说一：</span>蹲坑会记住你的名字，并在厕所界传播你的“英雄事迹”。</li>
+                <li><span class="em">传说二：</span>蹲坑会召唤“厕所精灵”，它们会在你的生活中制造小麻烦。</li>
+                <li><span class="em">传说三：</span>蹲坑会释放“尴尬光环”，让你在公共场合不自觉地脸红。</li>
+            </ul>
+            <img src="3.jpg" alt="动漫蹲坑" class="cute-toilet">
+            <p class="toilet-adventure">蹲坑精灵，正在监督你的厕所行为！</p>
+        </section>
+
+        <section>
+            <h2>💩 粑粑的“复仇”</h2>
+            <p>不要小看了粑粑，它们也有自己的尊严和复仇计划！</p>
+            <ul>
+                <li><strong>复仇计划一：</strong>如果你不冲水，粑粑们会联合起来，让你的名声在厕所界臭名昭著。</li>
+                <li><strong>复仇计划二：</strong>粑粑们会悄悄跟随你，让你在不经意间感受到它们的“温暖”。</li>
+                <li><strong>复仇计划三：</strong>粑粑们会召唤更多的粑粑，让你的厕所变成它们的王国。</li>
+            </ul>
+            <img src="4.jpg" alt="动漫粑粑" class="cute-toilet">
+            <p class="toilet-adventure">粑粑军团，正在策划他们的复仇行动！</p>
+        </section>
+
+        <footer>
+            <p>🌍 保护环境，从冲水做起。</p>
+        </footer>
+    </div>
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('audioPlayer');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
